@@ -6,7 +6,7 @@
 /*   By: waren10 <waren10@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/13 11:59:10 by waren10           #+#    #+#             */
-/*   Updated: 2024/11/10 13:44:06 by waren10          ###   ########.fr       */
+/*   Updated: 2025/02/08 05:24:01 by waren10          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -114,7 +114,9 @@ char	**ft_split(char const *str, char c)
 	int		pos;
 
 	if (str == NULL)
+	{
 		return (NULL);
+	}
 	i = 0;
 	pos = 0;
 	j = ft_wordcount((char *)str, c);
